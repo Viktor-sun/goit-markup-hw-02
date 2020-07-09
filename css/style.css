@@ -43,6 +43,10 @@ ul {
 	color: var(--accent-color);
 }
 
+.list-nav .current {
+	color: var(--accent-color);
+}
+
 .address-nav > a {
 	color: var(--primery-text-color);
 }
