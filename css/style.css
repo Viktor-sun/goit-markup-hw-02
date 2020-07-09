@@ -1,0 +1,80 @@
+/* background color FFFFFF */
+/* color titles #212121 */
+/* primery color 212121 */
+/* accent color 2196F3 */
+/* logo color #000000*/
+
+:root {
+	--primery-text-color: #757575;
+	--background-color: #ffffff;
+	--titles-text-color: #212121;
+	--accent-color: #2196f3;
+}
+
+/* Основные настройки  */
+body {
+	background-color: var(--background-color);
+	color: var(--primery-text-colo);
+}
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Logo */
+.logo {
+	color: #000000;
+}
+
+.logo > .logo-excerpt {
+	color: var(--accent-color);
+}
+
+/* Nav */
+.list-nav a {
+	color: var(--titles-text-colo);
+}
+
+.list-nav a:hover,
+.list-nav a:focus {
+	color: var(--accent-color);
+}
+
+.address-nav > a {
+	color: var(--primery-text-color);
+}
+
+.address-nav > a:hover,
+.address-nav > a:focus {
+	color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+	background-color: teal;
+}
+
+.hero-title {
+	color: var(--background-color);
+}
+
+.button {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+}
+
+/* Title */
+.title {
+	color: var(--titles-text-color);
+}
+
+.hidden-title {
+	color: var(--background-color);
+}
+
+.achievements-title {
+	color: var(--titles-text-color);
+}
