@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Web Studio</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 
@@ -12,19 +16,19 @@
 		<header>
 			<nav>
 				<!-- Основная навигация -->
-				<a href="./index.html" class="logo" lang="en">
+				<a href="./" class="logo" lang="en">
 					<span class="logo-excerpt">Web</span>
 					Studio
 				</a>
 				<ul class="list-nav">
 					<li>
-						<a href="./index.html" class="current">Студия</a>
+						<a href="./index.html" class="link current">Студия</a>
 					</li>
 					<li>
-						<a href="./portfolio.html">Портфолио</a>
+						<a href="./portfolio.html" class="link">Портфолио</a>
 					</li>
 					<li>
-						<a href="">Контакты</a>
+						<a href="" class="link">Контакты</a>
 					</li>
 				</ul>
 			</nav>
@@ -40,32 +44,32 @@
 			<!-- Герой -->
 			<section class="hero">
 				<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-				<a href="" class="button">Заказать услугу</a>
+				<button type="button" class="button">Заказать услугу</button>
 			</section>
 
-			<!-- Достоинства -->
+			<!-- Достижения -->
 			<section>
-				<h2 class="hidden-title">Достоинства</h2>
+				<h2 class="hidden-title">Достижения</h2>
 				<ul>
 					<li>
 						<img src="./images/antenna.jpg" alt="Спутниковая тарелка" width="70" />
 						<h3 class="achievements-title">Внимание к деталям</h3>
-						<p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+						<p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
 					<li>
 						<img src="./images/clock.jpg" alt="Часы" width="70" />
 						<h3 class="achievements-title">Пунктуальность</h3>
-						<p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+						<p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
 					<li>
 						<img src="./images/diagram.jpg" alt="Диаграмма" width="70" />
 						<h3 class="achievements-title">Планирование</h3>
-						<p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+						<p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
 					<li>
 						<img src="./images/astronaut.jpg" alt="Астронавт" width="70" />
 						<h3 class="achievements-title">Современные технологии</h3>
-						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+						<p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
 			</section>
@@ -76,15 +80,15 @@
 				<ul>
 					<li>
 						<img src="./images/box1.jpg" alt="Ноутбук" width="370" />
-						<h3>Десктопные приложения</h3>
+						<h3 class="title-img">Десктопные приложения</h3>
 					</li>
 					<li>
 						<img src="./images/box2.jpg" alt="Мобильный телефон" width="370" />
-						<h3>Мобильные приложения</h3>
+						<h3 class="title-img">Мобильные приложения</h3>
 					</li>
 					<li>
 						<img src="./images/box3.jpg" alt="Монитор" width="370" />
-						<h3>Дизайнерские решения</h3>
+						<h3 class="title-img">Дизайнерские решения</h3>
 					</li>
 				</ul>
 			</section>
@@ -98,8 +102,8 @@
 						<a href="">
 							<img src="./images/person1.jpg" alt="Фото" width="270" />
 						</a>
-						<h3>Николай Кучеренко</h3>
-						<p lang="en">Product Designer</p>
+						<h3 class="title-person">Николай Кучеренко</h3>
+						<p class="profession" lang="en">Product Designer</p>
 						<ul class="socials">
 							<li>
 								<a href="" aria-label="Ссыла на instagram">instagram</a>
@@ -120,8 +124,8 @@
 						<a href="">
 							<img src="./images/person2.jpg" alt="Фото" width="270" />
 						</a>
-						<h3>Ольга Иванова</h3>
-						<p lang="en">Frontend Developer</p>
+						<h3 class="title-person">Ольга Иванова</h3>
+						<p class="profession" lang="en">Frontend Developer</p>
 						<ul class="socials">
 							<li>
 								<a href="" aria-label="Ссыла на instagram">instagram</a>
@@ -142,8 +146,8 @@
 						<a href="">
 							<img src="./images/person3.jpg" alt="Фото" width="270" />
 						</a>
-						<h3>Андрей Шевченко</h3>
-						<p lang="en">Marketing</p>
+						<h3 class="title-person">Андрей Шевченко</h3>
+						<p class="profession" lang="en">Marketing</p>
 						<ul class="socials">
 							<li>
 								<a href="" aria-label="Ссыла на instagram">instagram</a>
@@ -165,8 +169,8 @@
 						<a href="">
 							<img src="./images/person4.jpg" alt="Фото" width="270" />
 						</a>
-						<h3>Иван Николаев</h3>
-						<p lang="en">UI Designer</p>
+						<h3 class="title-person">Иван Николаев</h3>
+						<p class="profession" lang="en">UI Designer</p>
 						<ul class="socials">
 							<li>
 								<a href="" aria-label="Ссыла на instagram">instagram</a>
@@ -224,21 +228,21 @@
 		</main>
 
 		<!-- Футер -->
-		<footer>
-			<a href="./" lang="en">
-				<span>Web</span>
+		<footer class="footer">
+			<a href="./" class="logo logo-footer" lang="en">
+				<span class="logo-excerpt">Web</span>
 				Studio
 			</a>
 
-			<address>
+			<address class="address-footer">
 				г. Киев, пр-т Леси Украинки, 26
 				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
 				<a href="tel:+380961111111">+38 096 111 11 11</a>
 			</address>
 
 			<div>
-				<b>присоединяйтесь</b>
-				<ul>
+				<b class="caption">присоединяйтесь</b>
+				<ul class="socials-footer">
 					<li>
 						<a href="" aria-label="Ссыла на instagram">instagram</a>
 					</li>
@@ -252,6 +256,11 @@
 						<a href="" aria-label="Ссылка на linkedin">linkedin</a>
 					</li>
 				</ul>
+			</div>
+
+			<div>
+				<b class="caption">Подпишитесь на рассылку</b>
+				<button type="button" class="button">Подписаться</button>
 			</div>
 		</footer>
 	</body>
