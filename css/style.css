@@ -111,10 +111,6 @@ ul {
 }
 
 /* Achievements */
-.hidden-title {
-	color: var(--background-color);
-}
-
 .achievements-title {
 	color: var(--titles-text-color);
 
@@ -202,4 +198,51 @@ ul {
 .socials-footer a:hover,
 .socials-footer a:focus {
 	color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* Buttons */
+.filter-button {
+	color: var(--titles-text-color);
+	background: #f5f4fa;
+
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+}
+
+/* Item project */
+.text-hover {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.headline {
+	color: var(--titles-text-color);
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.subtitle {
+	color: var(--primery-text-color);
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.97;
 }
